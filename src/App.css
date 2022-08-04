@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+  background-color: #87b5b5;
+}
+
+/* russo-one-regular - latin */
+@font-face {
+  font-family: 'Russo One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Russo One'), url('./russo-one-v14-latin-regular.woff') format('woff');
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.preview-area {
+  justify-content: left;
+}
+
+table,
+tr,
+td,
+th {
+  border: 1px solid #555;
+}
+
+/* blockquote {
+  padding: 0 1em;
+  color: #6a737d;
+  border-left: 0.25em solid #dfe2e5;
+} */
+
+blockquote {
+  border-left: 3px solid #224b4b;
+  color: #224b4b;
+  padding-left: 5px;
+  margin-left: 25px;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+#preview pre {
+  display: block;
+  overflow: auto;
+  background: white;
+  padding: 5px;
+  line-height: 1.2;
+}
+
+textarea {
+  width: 100%;
+  min-height: 200px;
+  margin-bottom: -5px;
+  resize: vertical;
+  outline: none;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-size: 0.875rem;
+  background-color: #c0d8d8;
+  border: 1px solid #1d2f2f;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+  border-top: none;
+}
+
+#preview code {
+  background: white;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.editor-wrapper {
+  max-width: 600px;
+  margin: 1.125rem auto;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  background-color: #4aa3a3;
+  padding: 0.3rem;
+  border: 1px solid #1d2f2f;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+  font-family: 'Russo One';
+  font-size: 1rem;
+  color: black;
+  cursor: pointer;
+}
+
+.previewer-wrapper {
+    max-width: 800px;
+    margin: 1.25rem auto;
+    min-height: 200px;
+    overflow-wrap: break-word;
+    background-color: #c0d8d8;
+    border: 1px solid #1d2f2f;
+    box-shadow: 1px 1px 10px 2px #3a5f5f;
+    border-top: none;
+    text-align: left;
+}
+
+#preview {
+  padding: 0 1rem;
+}
+
+img {
+  display: block;
+  max-width: 90%;
+  margin: 2rem auto;
+}
+
+.maximised {
+  min-height: 500px;
+}
