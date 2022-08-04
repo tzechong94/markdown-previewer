@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/tzechong94/markdown-previewer/static/css/main.cd05569d.css",
-    "main.js": "/tzechong94/markdown-previewer/static/js/main.af6669d0.js",
-    "static/js/787.e9480b1f.chunk.js": "/tzechong94/markdown-previewer/static/js/787.e9480b1f.chunk.js",
-    "static/media/russo-one-v14-latin-regular.woff": "/tzechong94/markdown-previewer/static/media/russo-one-v14-latin-regular.d9dd086495614795ef9e.woff",
-    "index.html": "/tzechong94/markdown-previewer/index.html",
-    "main.cd05569d.css.map": "/tzechong94/markdown-previewer/static/css/main.cd05569d.css.map",
-    "main.af6669d0.js.map": "/tzechong94/markdown-previewer/static/js/main.af6669d0.js.map",
-    "787.e9480b1f.chunk.js.map": "/tzechong94/markdown-previewer/static/js/787.e9480b1f.chunk.js.map"
+    "main.css": "/markdown-previewer/static/css/main.99b26faf.css",
+    "main.js": "/markdown-previewer/static/js/main.f5beed34.js",
+    "static/js/787.e9480b1f.chunk.js": "/markdown-previewer/static/js/787.e9480b1f.chunk.js",
+    "static/media/russo-one-v14-latin-regular.woff": "/markdown-previewer/static/media/russo-one-v14-latin-regular.d9dd086495614795ef9e.woff",
+    "index.html": "/markdown-previewer/index.html",
+    "main.99b26faf.css.map": "/markdown-previewer/static/css/main.99b26faf.css.map",
+    "main.f5beed34.js.map": "/markdown-previewer/static/js/main.f5beed34.js.map",
+    "787.e9480b1f.chunk.js.map": "/markdown-previewer/static/js/787.e9480b1f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd05569d.css",
-    "static/js/main.af6669d0.js"
+    "static/css/main.99b26faf.css",
+    "static/js/main.f5beed34.js"
   ]
 }
